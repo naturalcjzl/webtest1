@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>중앙경찰학교 홍보 웹앱</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">중앙경찰학교</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">홈</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">소개</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#programs">교육 과정</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">문의</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero bg-primary text-white text-center p-5">
+        <div class="container">
+            <h1>중앙경찰학교</h1>
+            <p>미래의 경찰관을 양성하는 최고의 교육기관</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="p-5">
+        <div class="container">
+            <h2 class="text-center">기관 소개</h2>
+            <p class="lead text-center">중앙경찰학교는 신임 경찰관들에게 9개월간의 이론 및 실습 교육을 제공합니다. 이를 통해 전국 각지에서 안전과 질서를 유지할 수 있는 유능한 경찰관으로 양성합니다.</p>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs" class="bg-light p-5">
+        <div class="container">
+            <h2 class="text-center">교육 과정</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">이론 교육</h5>
+                            <p class="card-text">법률, 경찰 제도, 공공 안전과 관련된 이론 교육을 통해 기초 지식을 쌓습니다.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">실습 교육</h5>
+                            <p class="card-text">현장에서 실제로 겪을 수 있는 상황을 대비한 실습 교육을 통해 실전 경험을 쌓습니다.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">체력 훈련</h5>
+                            <p class="card-text">체력 강화와 신체 단련을 위한 체력 훈련 프로그램을 운영하여 경찰관으로서의 체력을 기릅니다.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="p-5">
+        <div class="container">
+            <h2 class="text-center">문의하기</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">이름</label>
+                    <input type="text" class="form-control" id="name" placeholder="이름을 입력하세요">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">이메일</label>
+                    <input type="email" class="form-control" id="email" placeholder="이메일을 입력하세요">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">문의 내용</label>
+                    <textarea class="form-control" id="message" rows="5" placeholder="문의 내용을 입력하세요"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">보내기</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center p-3">
+        <p>© 2024 중앙경찰학교. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
